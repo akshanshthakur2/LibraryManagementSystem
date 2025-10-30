@@ -27,14 +27,14 @@ This console-based application allows users to **add**, **issue**, **return**, a
 
 ## 🗂️ Project Structure
 
-LibraryManagementSystem/
-├── src/
-│ └── com/Projects/LibraryManagementSystem/
-│ ├── Book.java
-│ ├── Library.java
-│ └── LibraryManagement.java
-├── .gitignore
-└── README.md
+LibraryManagementSystem/<br>
+ ├── src/ <br>
+ │ └── com/Projects/LibraryManagementSystem/ <br>
+ │ ├── Book.java<br>
+ │ ├── Library.java<br>
+ │ └── LibraryManagement.java<br>
+ ├── .gitignore<br>
+ └── README.md<br>
 
 ---
 
@@ -42,8 +42,13 @@ LibraryManagementSystem/
 
 1. Open the project in **Eclipse IDE** or any Java IDE.  
 2. Navigate to:  
+<<<<<<< HEAD
    `src/com/Projects/LibraryManagementSystem/LibraryMain.java`  
 3. Run the `LibraryMain` file.  
+=======
+   `src/com/Projects/LibraryManagementSystem/LibraryManagementSystem.java`  
+3. Run the `LibraryManagementSystem` file.  
+>>>>>>> branch 'master' of https://github.com/akshanshthakur2/LibraryManagementSystem
 4. Use the console menu to perform actions like:
    - Add Book  
    - Display Books  
