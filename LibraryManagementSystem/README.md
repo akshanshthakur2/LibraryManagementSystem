@@ -28,7 +28,7 @@ This console-based application allows users to **add**, **issue**, **return**, a
 ## 🗂️ Project Structure
 
 LibraryManagementSystem/<br>
- ├── src/ <br>
+ ├── src/<br>
  │ └── com/Projects/LibraryManagementSystem/ <br>
  │ ├── Book.java<br>
  │ ├── Library.java<br>
