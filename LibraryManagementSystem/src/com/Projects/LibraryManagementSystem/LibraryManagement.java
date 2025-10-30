@@ -9,13 +9,14 @@ public class LibraryManagement {
 		boolean exit = false;
 
 		while (!exit) {
-			System.out.println("===Library Management System===");
+			System.out.println("\n----------------------------------\n");
+			System.out.println("===Library Management System===\n");
 			System.out.println("1. Add book in the library");
 			System.out.println("2. Display all Books");
 			System.out.println("3. Borrow book from the library");
 			System.out.println("4. Return book to the library");
 			System.out.println("5. Exit");
-			System.out.println("Enter your choice: ");
+			System.out.println("\nEnter your choice: ");
 
 			int n = sc.nextInt();
 			sc.nextLine();
@@ -34,9 +35,9 @@ public class LibraryManagement {
 				break;
 			case 5: 
 				exit=true;
-				System.out.println("Thankyou.. exiting!");
+				System.out.println("\nThankyou.. exiting!");
 				break;
-			default: System.out.println("Invalid Input.. Try Again!");
+			default: System.out.println("\nInvalid Input.. Try Again!");
 			}
 		}
 		

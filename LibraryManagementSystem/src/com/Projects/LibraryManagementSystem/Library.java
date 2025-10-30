@@ -8,7 +8,7 @@ public class Library {
 	public void addBook(String title, String author) {
 		Book newBook= new Book(title, author);
 		books.add(newBook);
-		System.out.println("Book added Succesfully!");
+		System.out.println("\nBook added Succesfully!");
 	}
 	
 	public void displayBook() {
@@ -25,12 +25,12 @@ public class Library {
 			if(b.getTitle().equalsIgnoreCase(title)) {
 				if(b.isAvailable()) {
 					b.isIssued();
-					System.out.println(title+" is successfully Issued!...");					
-				}else System.out.println(title+" is not Available!...");
+					System.out.println("\n"+title+" is successfully Issued!...");					
+				}else System.out.println("\n"+title+" is not Available!...");
 				return;
 			}
 		}
-		System.out.println("Book is not Available in the Library...");
+		System.out.println("\nBook is not Available in the Library...");
 	}
 	
 	public void returnBook(String title) {
@@ -38,13 +38,13 @@ public class Library {
 			if(b.getTitle().equalsIgnoreCase(title)) {
 				if(!b.isAvailable()) {
 					b.notIssued();
-					System.out.println(title+" is returned succesfully!...");
+					System.out.println("\n"+title+" is returned succesfully!...");
 					
-				}else System.out.println(title+" was not Issued!...");
+				}else System.out.println("\n"+title+" was not Issued!...");
 				return;
 			}
 		}
-		System.out.println("Book is not Available in the Library...");
+		System.out.println("\nBook is not Available in the Library...");
 	}
 	
 }
