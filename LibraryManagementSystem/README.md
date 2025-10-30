@@ -27,3 +27,13 @@ This console-based application allows users to **add**, **issue**, **return**, a
 
 ## 🗂️ Project Structure
 
+LibraryManagementSystem/
+│
+├── src/
+│ └── com/Projects/LibraryManagementSystem/
+│ ├── Book.java
+│ ├── Library.java
+│ └── LibraryMain.java
+│
+├── .gitignore
+└── README.md
