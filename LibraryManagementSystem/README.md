@@ -42,8 +42,8 @@ LibraryManagementSystem/
 
 1. Open the project in **Eclipse IDE** or any Java IDE.  
 2. Navigate to:  
-   `src/com/Projects/LibraryManagementSystem/LibraryMain.java`  
-3. Run the `LibraryMain` file.  
+   `src/com/Projects/LibraryManagementSystem/LibraryManagementSystem.java`  
+3. Run the `LibraryManagementSystem` file.  
 4. Use the console menu to perform actions like:
    - Add Book  
    - Display Books  
